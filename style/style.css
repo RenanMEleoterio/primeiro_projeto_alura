@@ -82,17 +82,17 @@ body{
 .apresentacao__conteudo__link__redes{
     display: flex;
     justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--cor-terciaria);
     width: 50%;
-    gap: 1rem;
-    border: 0.13rem solid var(--cor-terciaria);
-    border-radius: 0.5rem;
     text-align: center;
-    font-family: var(--fonte-secundaria);
+    border-radius: 8px;
     font-size: 1.5rem;
     font-weight: 600;
+    padding: 21.5px 0;
     text-decoration: none;
     color: var(--cor-secundaria);
-    padding: 1.25rem 0;
+    font-family: var(--fonte-secundaria);
 
 }
 
